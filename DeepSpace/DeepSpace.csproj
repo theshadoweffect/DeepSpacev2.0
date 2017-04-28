@@ -128,6 +128,7 @@
     <Compile Include="Assets\Scripts\Player\RotateCam.cs" />
     <Compile Include="Assets\Scripts\Player\ShipMovement.cs" />
     <Compile Include="Assets\Scripts\Player\WeaponSwitch.cs" />
+    <Compile Include="Assets\Scripts\Player\cooldownVisual.cs" />
     <Compile Include="Assets\Scripts\Player\healthBar.cs" />
     <Compile Include="Assets\Scripts\Player\shieldBarScript.cs" />
     <Compile Include="Assets\exitScript.cs" />

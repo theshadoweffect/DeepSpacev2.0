@@ -87,6 +87,12 @@ public class ConstructionScript : MonoBehaviour {
         clone = Instantiate(Buildables[selector], transform.position + offset, transform.rotation) as GameObject;
 
     }
-
+    public float GetConstructTime(int GetCoolDown) {
+        if((timestamp[GetCoolDown] - Time.time) < 0)
+        {
+            return 0;
+        }
+        return (timestamp[GetCoolDown] - Time.time);
+    }
 
 }
